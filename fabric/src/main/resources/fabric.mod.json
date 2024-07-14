@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fishmc",
+  "version": "${version}",
+  "name": "FishMC",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/fishmc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.raspberrymods.fishmc.architectury.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "eu.raspberrymods.fishmc.architectury.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "fishmc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.2",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

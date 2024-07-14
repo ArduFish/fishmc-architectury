@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "fishmc",
+    "version": "${version}",
+    "metadata": {
+      "name": "FishMC",
+      "description": "This is an example description! Tell everyone what your mod is about!",
+      "contributors": {
+        "Me!": "Author"
+      },
+      "icon": "assets/fishmc/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "eu.raspberrymods.fishmc.architectury.quilt.ExampleModQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.21"
+      },
+      {
+        "id": "architectury",
+        "version": ">=13.0.2"
+      }
+    ]
+  },
+  "mixin": [
+    "fishmc.mixins.json"
+  ]
+}
