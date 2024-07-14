@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "ARR"
 
 [[mods]]
 modId = "fishmc"
 version = "${version}"
 displayName = "FishMC"
-authors = "Me!"
+authors = "ARaspberry523"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+FishMC
 '''
 #logoFile = ""
 
